@@ -14,7 +14,9 @@
 
 ## Шаги выполнения
 
+
 # Шаг 1
+
 Установить виртуальную машину.
 
 ![image](https://github.com/Flameitser/TOIB2/assets/65831927/c088f9f1-8b15-4b1b-9a2a-04a63790cf13)
@@ -22,6 +24,7 @@
 
 
 # Шаг 2
+
 Создание суперпользователя super-Kurchenko.I.D.
  sudo useradd super-Kurchenko.I.D
  
@@ -33,6 +36,7 @@
 
 
 # Шаг 3
+
 Создание группы group-BBMO-02-23.
 
 sudo groupadd BBMO-02-23
@@ -43,6 +47,7 @@ sudo usermod -aG BBMO-02-23 super-Kurchenko.I.D
 
 
 # Шаг 4
+
 Создание обычного пользователя user-Kurchenko.I.D и добавление его в созданную ранее группу.
 
 sudo useradd -U -m -s /bin/bash -G BBMO-02-23 user-Kurchenko.I.D
