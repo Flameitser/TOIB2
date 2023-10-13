@@ -28,25 +28,30 @@
 sudo useradd super-Kurchenko.I.D
 sudo usermod -a -G sudo super-Kurchenko.I.D
 passwd super-Kurchenko.I.D
-![image](https://github.com/Flameitser/TOIB-2/assets/65831927/e810e538-486f-4d6e-acd0-422598cffc89)
+![image](https://github.com/Flameitser/TOIB2/assets/65831927/bceaab4e-8e9c-480b-9910-fe0349d61602)
+
 
  Шаг 3
 Создание группы group-BBMO-02-23.
 sudo groupadd BBMO-02-23
-![image](https://github.com/Flameitser/TOIB-2/assets/65831927/6e5ea018-d9b2-49f3-b2e0-9018d972c54f)
+sudo usermod -aG BBMO-02-23 super-Kurchenko.I.D
+![image](https://github.com/Flameitser/TOIB2/assets/65831927/f1ae4a45-518f-42c3-b38a-9b918581a0dd)
+
 
  Шаг 4
 Создание обычного пользователя user-Kurchenko.I.D и добавление его в созданную ранее группу.
 sudo useradd -U -m -s /bin/bash -G BBMO-02-23 user-Kurchenko.I.D
 passwd user-Kurchenko.I.D
-![image](https://github.com/Flameitser/TOIB-2/assets/65831927/1f9da57d-8c0d-4939-8e6b-ccb82fc4af4b)
+![image](https://github.com/Flameitser/TOIB2/assets/65831927/303695b4-583c-48aa-9dc7-4bd8501f6415)
+
 
 # Шаг 5
 Проверка наличия пользователя user-Kurchenko.I.D в группу group-BBMO-02-23.
 groups user-Kurchenko.I.D
-![image](https://github.com/Flameitser/TOIB-2/assets/65831927/af108ae8-5a1d-4d40-b6ba-a5fa206f11b2)
 groups super-Kurchenko.I.D
-![image](https://github.com/Flameitser/TOIB-2/assets/65831927/8d2af599-487d-4fba-a28d-f121812c76c5)
+![image](https://github.com/Flameitser/TOIB2/assets/65831927/293b90b2-1581-4ef3-b040-1e848c5d307c)
+
+
 
 # Шаг 6
 Наделить полномочиями user-Kurchenko.I.D.
