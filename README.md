@@ -13,14 +13,10 @@
 
 
 ## Шаги выполнения
-```
+
  Шаг 1
 Установить виртуальную машину.
 ![image](https://github.com/Flameitser/TOIB2/assets/65831927/c088f9f1-8b15-4b1b-9a2a-04a63790cf13)
-
-
-
-
 
 
  Шаг 2
@@ -52,7 +48,6 @@ groups super-Kurchenko.I.D
 ![image](https://github.com/Flameitser/TOIB2/assets/65831927/293b90b2-1581-4ef3-b040-1e848c5d307c)
 
 
-
 # Шаг 6
 Наделить полномочиями user-Kurchenko.I.D.
 sudo chmod 770 ~
@@ -65,4 +60,4 @@ mkdir 1.txt
 touch 1.txt
 rm 1.txt
 
-```
+
