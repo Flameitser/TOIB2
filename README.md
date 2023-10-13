@@ -19,6 +19,7 @@
 ![image](https://github.com/Flameitser/TOIB2/assets/65831927/c088f9f1-8b15-4b1b-9a2a-04a63790cf13)
 
 
+
  Шаг 2
 Создание суперпользователя super-Kurchenko.I.D.
 sudo useradd super-Kurchenko.I.D
