@@ -17,7 +17,7 @@
  Шаг 1
 Установить виртуальную машину.
 ![image](https://github.com/Flameitser/TOIB2/assets/65831927/c088f9f1-8b15-4b1b-9a2a-04a63790cf13)
-![2023-10-13 16_40_58-Editing TOIB-2_README md at main · Flameitser_TOIB-2](https://github.com/Flameitser/TOIB2/assets/65831927/243a121a-7aa8-4e0e-a4fc-3b81ebdba985)
+
 
 
 
